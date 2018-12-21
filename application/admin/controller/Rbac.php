@@ -22,7 +22,9 @@ class Rbac extends BaseController
 
         $this->RbacLogic = new RbacLogic();
     }
-
+    public function test(){
+        echo 222;
+    }
     /**
      * @api {POST} /admin/Rbac/authAdd 权限添加
      * @apiDescription  新增权限操作
